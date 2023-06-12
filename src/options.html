@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="has-background-dark">
+<head>
+    <meta charset="utf-8">
+    <title>GitHub Search Options</title>
+    <style>
+        label {
+            display: block;
+        }
+        image {
+            display: initial;
+        }
+    </style>
+    
+<link rel="stylesheet" href="bulma.css"></link>
+</head>
+<body class="py-4 px-6  height:%100">
+    <h1 class="is-size-1 has-text-primary">Omni Search Options</h1>
+    <p class="has-text-light">Select the sites you want to include in search suggestions:</p>
+    <br>
+    <div>
+        <label for="country-select">Select a Country:</label><img class="image is-24x24" src="assets/flags/tr.png" style="display: initial;" id="country-flag"/>
+        <span class="fa-solid fa-flag-usa" style="color: #a81616;"></span> 
+        <select id="country-select">
+        </select>
+        <label for="default-select">Default action:</label>
+        <select id="default-select">
+        </select>
+      </div>
+      
+    <div class="box">
+        <form id="options-form">
+            <button type="submit" class="button is-primary" id="save_btn">Save</button>
+        </form>
+    </div>
+    
+    <script src="options.js"></script>
+</body>
+</html>
