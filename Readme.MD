@@ -13,4 +13,4 @@ This extension is uses letters as a keyword. Omnibox is not support changing key
 * load unpacked => select extension folder
 * Open new tab and type keyword and search term. Suggestions will be listed.
 
-![](Docs/images/omnibox.gif)
+![](Docs/images/omnisearch.gif)
