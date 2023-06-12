@@ -1,0 +1,21 @@
+{
+    "name": "OmniSearch for s",
+    "version": "1.0",
+    "description": "Search on fav website using the 's' keyword",
+    "manifest_version": 3,
+    "icons": {
+      "128": "icon128.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions":["storage"],
+    "omnibox": {
+      "keyword": "s"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    }
+  }
+  
